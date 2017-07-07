@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <meta name="description" content="盒模型一、盒子模型盒子模型：组成网页的每一个元素，主页面上的表现形式都是一个矩形（所占的位置是一个矩形），这一个个的矩形都叫做盒子（因为每一个矩形都会装有内容）盒子模型是用来描述每一个元素之间的位置关系，和盒子本身的大小属性  
+
+元素和css属性分为两种：-内置属性：元素天生自带的css属性-自定" />
+  
+
+  
+  
+  
+  
+  
+  
+  <title>box_model | 秋月</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="盒模型一、盒子模型盒子模型：组成网页的每一个元素，主页面上的表现形式都是一个矩形（所占的位置是一个矩形），这一个个的矩形都叫做盒子（因为每一个矩形都会装有内容）盒子模型是用来描述每一个元素之间的位置关系，和盒子本身的大小属性    元素和css属性分为两种：-内置属性：元素天生自带的css属性-自定义属性：人为添加给元素的css属性，自定属性的属性 二、盒子模型的组成盒子模型由外边距，边框， 内边">
+<meta property="og:type" content="article">
+<meta property="og:title" content="box_model">
+<meta property="og:url" content="http://yoursite.com/2017/07/06/box_model/index.html">
+<meta property="og:site_name" content="秋月">
+<meta property="og:description" content="盒模型一、盒子模型盒子模型：组成网页的每一个元素，主页面上的表现形式都是一个矩形（所占的位置是一个矩形），这一个个的矩形都叫做盒子（因为每一个矩形都会装有内容）盒子模型是用来描述每一个元素之间的位置关系，和盒子本身的大小属性    元素和css属性分为两种：-内置属性：元素天生自带的css属性-自定义属性：人为添加给元素的css属性，自定属性的属性 二、盒子模型的组成盒子模型由外边距，边框， 内边">
+<meta property="og:image" content="http://yoursite.com/images/box_model_computed.jpg">
+<meta property="og:updated_time" content="2017-07-06T11:14:38.317Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="box_model">
+<meta name="twitter:description" content="盒模型一、盒子模型盒子模型：组成网页的每一个元素，主页面上的表现形式都是一个矩形（所占的位置是一个矩形），这一个个的矩形都叫做盒子（因为每一个矩形都会装有内容）盒子模型是用来描述每一个元素之间的位置关系，和盒子本身的大小属性    元素和css属性分为两种：-内置属性：元素天生自带的css属性-自定义属性：人为添加给元素的css属性，自定属性的属性 二、盒子模型的组成盒子模型由外边距，边框， 内边">
+<meta name="twitter:image" content="http://yoursite.com/images/box_model_computed.jpg">
+  
+  
+    <link rel="icon" href="/css/images/me.ico">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+  
+  <!-- baidu webmaster push -->
+  <script src='//push.zhanzhang.baidu.com/push.js'></script>
+</head>
+<body class="home blog custom-background custom-font-enabled single-author">
+  <div id="page" class="hfeed site">
+      <header id="masthead" class="site-header" role="banner">
+    <hgroup>
+      <h1 class="site-title">
+        <a href="/" title="秋月" rel="home">秋月</a>
+      </h1>
+      
+        <script type="text/javascript" src="http://api.hitokoto.us/rand?encode=js&charset=utf-8"></script>
+        <h2 class="site-description"><script>hitokoto();</script></h2>
+      
+    </hgroup>
+
+    <nav id="site-navigation" class="main-navigation" role="navigation">
+            <button class="menu-toggle">菜单</button>
+            <a class="assistive-text" href="/#content" title="跳至内容">跳至内容</a><!--TODO-->
+            <div class="menu-main-container">
+                <ul id="menu-main" class="nav-menu">
+                
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/">Home</a></li>
+                
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/archives">Archives</a></li>
+                
+                </ul>
+            </div>
+    </nav>
+</header>
+      <div id="main" class="wrapper">
+        <div id="primary" class="site-content"><div id="content" role="main"><article id="post-box_model" class="post-box_model post type-post status-publish format-standard hentry">
+    <!---->
+
+      <header class="entry-header">
+        
+        
+  
+    <h1 class="entry-title article-title">
+      box_model
+    </h1>
+  
+
+        
+        <div class="comments-link">
+            
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2017/07/06/box_model/" data-id="cj4taui9r00040ofx1i29j896" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+        </div><!-- .comments-link -->
+      </header><!-- .entry-header -->
+
+    <div class="entry-content">
+      
+        <h1 id="盒模型"><a href="#盒模型" class="headerlink" title="盒模型"></a>盒模型</h1><h2 id="一、盒子模型"><a href="#一、盒子模型" class="headerlink" title="一、盒子模型"></a>一、盒子模型</h2><p>盒子模型：组成网页的每一个元素，主页面上的表现形式都是一个矩形（所占的位置是一个矩形），这一个个的矩形都叫做盒子（因为每一个矩形都会装有内容）<br><strong>盒子模型</strong>是用来描述每一个元素之间的位置关系，和盒子本身的大小属性  </p>
+<blockquote>
+<p>元素和css属性分为两种：<br>-内置属性：元素天生自带的css属性<br>-自定义属性：人为添加给元素的css属性，自定属性的属性</p>
+<h2 id="二、盒子模型的组成"><a href="#二、盒子模型的组成" class="headerlink" title="二、盒子模型的组成"></a>二、盒子模型的组成</h2><p>盒子模型由外边距，边框， 内边距和内容组成，<br>其中外边距，边框，内边距都是四个方向，内容只有宽高。<br>每一个元素都有自己的内置样式，在编辑页面样式之前需要将这些内置样式统一重置，保证页面样式的正常显示</p>
+</blockquote>
+<h3 id="1、-外边距"><a href="#1、-外边距" class="headerlink" title="1、 外边距"></a>1、 外边距</h3><p>外边距：盒子与盒子之间的距离，用css属性margin表示，margin有四个方向，分别是</p>
+<ul>
+<li>margin-top：上外边距</li>
+<li>margin-right：右外边距</li>
+<li>margin-bottom：下外边距</li>
+<li><p>margin-left：左外边距</p>
+<blockquote>
+<p>margin值可以是数字、百分比、em、rem、并且<br>margin值支持负值</p>
+</blockquote>
+<p>margin的缩写:</p>
+</li>
+<li>margin：10px 20px 30px 40px;上右下左</li>
+<li>margin：10px 20px 30px;上 左右 下</li>
+<li>margin：10px 20px;上下 左右</li>
+<li>margin：10px；四个方向数值一致<blockquote>
+<p>外边距的兼容内容</p>
+<ul>
+<li>当上面的盒子有下外边距，下面的盒子有上边距时候，两个值只有最大值起作用<ul>
+<li>子级盒子的上边距会传递给父级盒子（指的是有包含关系的所有盒子），当父级盒子没有内边距或外边距的时候，就会出现这个问题</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+</li>
+<li>解决方式:<ul>
+<li>给父级元素添加overflow：hidden；（溢出隐藏）属性</li>
+<li>给父级元素添加内边距或边框属性</li>
+<li>将子元素的margin top值变为父集元素的padding-top值【最优选项】</li>
+</ul>
+</li>
+</ul>
+<h3 id="2、边框"><a href="#2、边框" class="headerlink" title="2、边框"></a>2、边框</h3><p>边框：在内边距和外边距之间，包裹盒子的四个防线的线条</p>
+<ul>
+<li>边框有四个方向 上 右 下 左</li>
+<li>边框可以设置颜色</li>
+<li>边框可以设置不同的样式</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">属性</th>
+<th style="text-align:center">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">border-top-width</td>
+<td style="text-align:center">上边框的宽度</td>
+</tr>
+<tr>
+<td style="text-align:center">border-top-color</td>
+<td style="text-align:center">上边框的高度</td>
+</tr>
+<tr>
+<td style="text-align:center">border-top-style</td>
+<td style="text-align:center">上边框的样式</td>
+</tr>
+<tr>
+<td style="text-align:center">border-top：1px solid red</td>
+<td style="text-align:center">上边框宽度样式颜色【右，下，左边框同上】</td>
+</tr>
+<tr>
+<td style="text-align:center">border-width：10px 20px 30px 40px</td>
+<td style="text-align:center">上右下左四个方向的边框宽度</td>
+</tr>
+<tr>
+<td style="text-align:center">border-color：red yellow green pink</td>
+<td style="text-align:center">上右下左四个方向的边框颜色</td>
+</tr>
+<tr>
+<td style="text-align:center">border-width：10px 20px 30px</td>
+<td style="text-align:center">上 左右 下的边框宽度</td>
+</tr>
+<tr>
+<td style="text-align:center">border-width：10px 20px</td>
+<td style="text-align:center">上下 左右的边框宽度</td>
+</tr>
+<tr>
+<td style="text-align:center">border-width：10px</td>
+<td style="text-align:center">四个方向的边框宽度</td>
+</tr>
+<tr>
+<td style="text-align:center">border：10px solid red；</td>
+<td style="text-align:center">四个方向的宽度 颜色 样式都一致</td>
+</tr>
+</tbody>
+</table>
+<p><code>transparent</code>透明（边框颜色透明）</p>
+<blockquote>
+<p>利用边框制作三角形<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">div&#123;boder-width:30px;</div><div class="line">    boder-color：red transparent transparent；</div><div class="line">    boder-style：solid；</div><div class="line">    width：0；</div><div class="line">    height：0；</div><div class="line">    &#125;</div></pre></td></tr></table></figure></p>
+</blockquote>
+<h3 id="3、内边距"><a href="#3、内边距" class="headerlink" title="3、内边距"></a>3、内边距</h3><p>内部距：边款距离内容之间的距离<br>padding有四个方向，分别是</p>
+<ul>
+<li>padding-top：上内边距</li>
+<li>padding-right：右内边距</li>
+<li>padding-bottom：下内边距</li>
+<li>padding-left：左内边距<blockquote>
+<p>padding值可以是数字、百分比、em、rem、并且<br>margin的缩写:</p>
+<ul>
+<li>padding：10px 20px 30px 40px;上右下左</li>
+<li>padding：10px 20px 30px;上 左右 下</li>
+<li>padding：10px 20px;上下 左右</li>
+<li>padding：10px；四个方向数值一致</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+<h3 id="4、内容"><a href="#4、内容" class="headerlink" title="4、内容"></a>4、内容</h3><p> 内容（content）分别有两个属性来代表</p>
+<ul>
+<li>宽度 width 数字 百分比 rem em</li>
+<li>高度 height数字 百分比 rem em</li>
+</ul>
+<h3 id="5、如何计算盒子的大小"><a href="#5、如何计算盒子的大小" class="headerlink" title="5、如何计算盒子的大小"></a>5、如何计算盒子的大小</h3><ul>
+<li>盒子的宽度=内容的宽度+左右内边距+左右边框宽度</li>
+<li>boxWidth=width+(padiding-left)+(padding-right)+(borde-left-width)+(border-right-width)       </li>
+<li>盒子的高度=内容的高度+上下内边距边距+上下边框宽度</li>
+<li>boxHeight=height+(padding -top)+(padding-bottom)+(padding-top-width)+(border-bottom-width) <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">&lt;style&gt;</div><div class="line">.box&#123;width:100px;padding:10px 20px 30px;boder-width:20px 50px;boder-style:solid;magin-bottom:10px;&#125;</div><div class="line">&lt;/style&gt;</div><div class="line">计算：</div><div class="line">boxWidth=100+20+20+50+50</div><div class="line">boxHeight=0+10+30+20+20</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>计算图解：<img src="/images/box_model_computed.jpg"></p>
+<h2 id="三、BFC盒子渲染模式"><a href="#三、BFC盒子渲染模式" class="headerlink" title="三、BFC盒子渲染模式"></a>三、BFC盒子渲染模式</h2><blockquote>
+<p>块级盒子如何在页面中排布</p>
+<ul>
+<li>盒子从父级盒子的左上开始</li>
+<li>垂直排布</li>
+<li>如果遇到上下margin值的时候，会发生margin值的折叠</li>
+<li>所有BFC渲染的盒子都是基本流（文档流）内的盒子<br>block   formating  context</li>
+</ul>
+</blockquote>
+<h2 id="四、IFC行内渲染模式"><a href="#四、IFC行内渲染模式" class="headerlink" title="四、IFC行内渲染模式"></a>四、IFC行内渲染模式</h2><blockquote>
+<p>行内盒子如何在页面中排布<br>inline formating  context</p>
+<ul>
+<li>盒子从父级盒子的左上开始</li>
+<li>横向排布，达到父级宽度的最大值，自动折行</li>
+<li>不能设置宽度，高度，设置padding-top，padding-bottom，margin-top，margin-bottom的时候可以识别但是不起作用<h2 id="五、块级元素的特点"><a href="#五、块级元素的特点" class="headerlink" title="五、块级元素的特点"></a>五、块级元素的特点</h2></li>
+<li>独占一行，垂直排列</li>
+<li>可以设置盒子模型的所有属性（width、height、padding、boder、margin）</li>
+<li>在不设置盒子的宽高的时候，宽度是其父级盒子内容的宽度，高度是其本身内容的高度</li>
+<li>块级元素可以嵌套其他元素<ul>
+<li>ul、ol里面第一层级只能是li</li>
+<li>dl第一层级只能是dt和dd</li>
+<li>p不能嵌套块级元素<h2 id="六、行内元素的特点"><a href="#六、行内元素的特点" class="headerlink" title="六、行内元素的特点"></a>六、行内元素的特点</h2></li>
+</ul>
+</li>
+<li>在一行显示从左到右，达到父级元素的最大宽度的时候，自动折行</li>
+<li>不能设置宽度和高度，padding和margin的上下<br>值</li>
+<li>宽度和高度是由本身内容的宽高决定的</li>
+<li>行内元素进行嵌套的时候，不要嵌套块级元素</li>
+<li>行内元素之间如果有空格或者回车，在页面上显示的时候就会出现盒子与盒子之间的空隙<h2 id="七、inline-block行内块级元素的特点"><a href="#七、inline-block行内块级元素的特点" class="headerlink" title="七、inline-block行内块级元素的特点"></a>七、inline-block行内块级元素的特点</h2></li>
+<li>从父级元素的左上角开始排列，从左到右排列，遇到父级元素最大宽度的时候，自动折行</li>
+<li>可以直接设置盒子模型的所有属性</li>
+<li>元素之间如果有空格或者回车，在页面上显示的时候就会出现盒子与盒子模型的所有属性</li>
+<li>同级元素之间默认垂直对齐方式是基线对齐<h2 id="overflow溢出"><a href="#overflow溢出" class="headerlink" title="overflow溢出"></a>overflow溢出</h2>在html中盒子里面的内容是允许大于盒子的，那么多出的部分默认会出现在盒子的右侧和下方，溢出的部分可以通过这个属性选择不同的展现形式<br>|属性值|描述|<br>|–|–|<br>|hidden|隐藏[超出盒子的部分不显示]|<br>|auto|自动识别[哪个方向内容溢出，那么哪个方向就会出现滚动条]|<br>|scroll|出现滚动条[无论是否溢出，都会出现滚动条]|<br>|visible|默认状态|<br>|inherit|从父元素属性上继承属性值|<h2 id="display以什么样的方式显示元素"><a href="#display以什么样的方式显示元素" class="headerlink" title="display以什么样的方式显示元素"></a>display以什么样的方式显示元素</h2>|属性值|描述|<br>|:–:|:–:|<br>|block|块级|<br>|inline|行内|<br>|inline-block|行内块级元素|<br>|none|没有|<br>|list-item|列表项目[列表队列]|<br>|table|表格|<br>|table-cell|表格项|<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">ul&#123;display：table&#125;</div><div class="line">li&#123;display：table-cell&#125;</div></pre></td></tr></table></figure>
+</li>
+</ul>
+</blockquote>
+<p>##基线对齐：同级元素之间的垂值对齐方式<br>vertical-align:baseline<br>|属性值|描述|<br>|:–:|:–:|<br>|baseline|基线对齐|<br>|top|顶部对齐[兄弟元素之间最高的那个元素的顶部对齐]|<br>|bottoml|底部对齐[兄弟元素之间最高的那个元素的底部对齐]|<br>|middle|中部对齐[兄弟之间最高的那个元素的中部对齐]|</p>
+<blockquote>
+<p>如果想要改变基线对齐方式，那么需要给每一个改变的元素都添加上这个属性</p>
+</blockquote>
+<h2 id="水平对齐"><a href="#水平对齐" class="headerlink" title="水平对齐"></a>水平对齐</h2><ul>
+<li><p>文字的水平对齐</p>
+<ul>
+<li>左对齐 text-align:left;</li>
+<li>居中对齐 text-align:center;</li>
+<li>右对齐 text-align:right;<blockquote>
+<p>这个属性需要给有宽度的元素上</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><p>盒子的水平对齐</p>
+<ul>
+<li>行内或行内块级元素的对齐方式<ul>
+<li>左对齐 text-align:left;<ul>
+<li>居中对齐text-align:center;</li>
+<li>右对齐 text-align:right；<blockquote>
+<p>这个属性需要给宽度的元素上</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>块级元素的对齐方式<ul>
+<li>给这个块级元素<strong>宽度</strong>，并且margin:0 atuo;左右值为atuo即可，那么这个块级元素就会在其父级元素内水平居中</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+      
+    </div><!-- .entry-content -->
+
+    <footer class="entry-meta">
+    <a href="/2017/07/06/box_model/">
+    <time datetime="2017-07-06T10:59:25.823Z" class="entry-date">
+        2017-07-06
+    </time>
+</a>
+    
+    
+    </footer>
+</article>
+
+
+    
+<nav class="nav-single">
+    <h3 class="assistive-text">文章导航</h3>
+    
+        <span class="nav-previous"><a href="/2017/07/07/float/" rel="prev"><span class="meta-nav">←</span> float 浮动</a></span>
+    
+    
+        <span class="nav-next"><a href="/2017/07/06/css1/" rel="next">css基础 <span class="meta-nav">→</span></a></span>
+    
+</nav><!-- .nav-single -->
+
+
+
+
+
+
+
+</div></div>
+        <div id="secondary" class="widget-area" role="complementary">
+  
+    <aside id="search" class="widget widget_search"><form role="search" method="get" accept-charset="utf-8" id="searchform" class="searchform" action="//google.com/search">
+    <div>
+        <input type="text" value="" name="s" id="s" />
+        <input type="submit" id="searchsubmit" value="搜索" />
+    </div>
+</form></aside>
+  
+    
+  
+    
+  
+    
+  <aside class="widget">
+    <h3 class="widget-title">Recents</h3>
+    <div class="widget-content">
+      <ul>
+        
+          <li>
+            <a href="/2017/07/07/qq_register_demo/">qq注册小项目</a>
+          </li>
+        
+          <li>
+            <a href="/2017/07/07/form/">form表单</a>
+          </li>
+        
+          <li>
+            <a href="/2017/07/07/float/">float 浮动</a>
+          </li>
+        
+          <li>
+            <a href="/2017/07/06/box_model/">box_model</a>
+          </li>
+        
+          <li>
+            <a href="/2017/07/06/css1/">css基础</a>
+          </li>
+        
+      </ul>
+    </div>
+  </aside>
+
+  
+    
+  
+    
+  
+</div>
+      </div>
+      <footer id="colophon" role="contentinfo">
+    <p>&copy; 2017 卉卉
+    All rights reserved.</p>
+    <p>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></p>
+</footer>
+    <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+<script src="/js/jquery-2.0.3.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+<script src="/js/navigation.js"></script>
+
+<div id="bg"></div>
+
+  </div>
+</body>
+</html>
