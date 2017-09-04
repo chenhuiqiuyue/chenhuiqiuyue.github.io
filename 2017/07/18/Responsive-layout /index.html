@@ -24,7 +24,7 @@
 <meta property="og:site_name" content="秋月">
 <meta property="og:description" content="响应式布局一、响应式设计：1.定宽度布局，常规的pc网站都是定宽布局的,设置了min-width,如果小于这个宽度就会出现滚动条2.响应式布局:流式布局+媒体查询，流式布局用来解决不同宽度的布局问题，媒体查询，可以调整布局3.rem布局:  总结：1.如果只做PC端，直接定宽高；2.如果做移动端，且设计对高度和元素间距要求不高，那么rem布局;如果pc和移动端都要兼容,根据媒体查询做不同的布局;">
 <meta property="og:image" content="http://yoursite.com/images/flexbox.png">
-<meta property="og:updated_time" content="2017-07-18T12:45:37.408Z">
+<meta property="og:updated_time" content="2017-09-02T07:40:14.904Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Responsive-layout 响应式布局">
 <meta name="twitter:description" content="响应式布局一、响应式设计：1.定宽度布局，常规的pc网站都是定宽布局的,设置了min-width,如果小于这个宽度就会出现滚动条2.响应式布局:流式布局+媒体查询，流式布局用来解决不同宽度的布局问题，媒体查询，可以调整布局3.rem布局:  总结：1.如果只做PC端，直接定宽高；2.如果做移动端，且设计对高度和元素间距要求不高，那么rem布局;如果pc和移动端都要兼容,根据媒体查询做不同的布局;">
@@ -83,7 +83,7 @@
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://yoursite.com/2017/07/18/Responsive-layout /" data-id="cj59kv8xh000078fxqd8a3ctn" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2017/07/18/Responsive-layout /" data-id="cj75xtnwj0001hcfx5zro688k" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -93,7 +93,7 @@
 <blockquote>
 <p>总结：<br>1.如果只做PC端，直接定宽高；<br>2.如果做移动端，且设计对高度和元素间距要求不高，那么rem布局;<br>如果pc和移动端都要兼容,根据媒体查询做不同的布局;</p>
 </blockquote>
-<h2 id="二、视口的概念"><a href="#二、视口的概念" class="headerlink" title="二、视口的概念:"></a>二、视口的概念:</h2><p>移动端常说的视口(viewport):浏览器显示页面内容的屏幕区域。</p>
+<h3 id="响应式布局主要原理：？"><a href="#响应式布局主要原理：？" class="headerlink" title="响应式布局主要原理：？"></a>响应式布局主要原理：？</h3><h2 id="二、视口的概念"><a href="#二、视口的概念" class="headerlink" title="二、视口的概念:"></a>二、视口的概念:</h2><p>移动端常说的视口(viewport):浏览器显示页面内容的屏幕区域。</p>
 <h3 id="viewport-视口"><a href="#viewport-视口" class="headerlink" title="viewport 视口"></a>viewport 视口</h3><p>常见viewport数值：(980~1024)</p>
 <ul>
 <li>iphone: 980</li>
@@ -181,7 +181,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">media-screen and (max-width=300px)&#123;</div><div class="line"></div><div class="line">&#125;</div><div class="line"></div><div class="line">@media (device-height:480px) and (-webkit-min-device-pixel-ratio:2)&#123;/* 兼容iphone4/4s */&#125;</div><div class="line"></div><div class="line">@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2)&#123;/* 兼容iphone5 */&#125;</div><div class="line"></div><div class="line">@media (device-width:375px) and (-webkit-min-device-pixel-ratio:2)&#123;/* 兼容iphone 6 */&#125;</div><div class="line"></div><div class="line">@media (device-width:414px) and (-webkit-min-device-pixel-ratio:3.0)&#123;/* 兼容iphone6 plus */&#125;</div></pre></td></tr></table></figure>
 <h2 id="flex-弹性盒模型"><a href="#flex-弹性盒模型" class="headerlink" title="flex 弹性盒模型"></a>flex 弹性盒模型</h2><p><img src="/images/flexbox.png"></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">/*新浪:(4个兼容写法)*/</div><div class="line">            /*display: -webkit-box;   */</div><div class="line">            /*display: -webkit-flex;*/</div><div class="line">            /*display: -ms-flexbox;   */</div><div class="line">            /*display: flex;*/</div></pre></td></tr></table></figure>
-<h2 id="css3过渡动画"><a href="#css3过渡动画" class="headerlink" title="css3过渡动画"></a>css3过渡动画</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div></pre></td><td class="code"><pre><div class="line">animation:</div><div class="line">    动画名称</div><div class="line">    持续的时间</div><div class="line">    过渡动画的类型</div><div class="line">    动画延迟的时间</div><div class="line">    动画运行的次数</div><div class="line">    方向（设置动画是否反向运动）</div><div class="line">    动画运行之外的状态</div><div class="line">&#125;</div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line">@keyframes 动画名称&#123;</div><div class="line">    0%&#123;</div><div class="line"></div><div class="line">    &#125;</div><div class="line">    50%&#123;</div><div class="line">    &#125;</div><div class="line">    100%&#123;</div><div class="line"></div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line">@-webkit-keyframes 动画名称&#123;</div><div class="line">    0%&#123;</div><div class="line"></div><div class="line">    &#125;</div><div class="line">    50%&#123;</div><div class="line">    &#125;</div><div class="line">    100%&#123;</div><div class="line"></div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="弹性盒模型应用"><a href="#弹性盒模型应用" class="headerlink" title="弹性盒模型应用"></a>弹性盒模型应用</h3><h2 id="css3过渡动画"><a href="#css3过渡动画" class="headerlink" title="css3过渡动画"></a>css3过渡动画</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div></pre></td><td class="code"><pre><div class="line">animation:</div><div class="line">    动画名称</div><div class="line">    持续的时间</div><div class="line">    过渡动画的类型</div><div class="line">    动画延迟的时间</div><div class="line">    动画运行的次数</div><div class="line">    方向（设置动画是否反向运动）</div><div class="line">    动画运行之外的状态</div><div class="line">&#125;</div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line">@keyframes 动画名称&#123;</div><div class="line">    0%&#123;</div><div class="line"></div><div class="line">    &#125;</div><div class="line">    50%&#123;</div><div class="line">    &#125;</div><div class="line">    100%&#123;</div><div class="line"></div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line">@-webkit-keyframes 动画名称&#123;</div><div class="line">    0%&#123;</div><div class="line"></div><div class="line">    &#125;</div><div class="line">    50%&#123;</div><div class="line">    &#125;</div><div class="line">    100%&#123;</div><div class="line"></div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
       
     </div><!-- .entry-content -->
 
@@ -201,8 +201,10 @@
 <nav class="nav-single">
     <h3 class="assistive-text">文章导航</h3>
     
+        <span class="nav-previous"><a href="/2017/07/18/JavaScript-01 /" rel="prev"><span class="meta-nav">←</span> JavaScript</a></span>
     
-        <span class="nav-next"><a href="/2017/07/16/html5/" rel="next">HTML5+CSS3 <span class="meta-nav">→</span></a></span>
+    
+        <span class="nav-next"><a href="/2017/07/16/html5+css3/" rel="next">HTML5+CSS3 <span class="meta-nav">→</span></a></span>
     
 </nav><!-- .nav-single -->
 
@@ -233,23 +235,23 @@
       <ul>
         
           <li>
-            <a href="/2017/07/18/Responsive-layout /">Responsive-layout 响应式布局</a>
+            <a href="/2017/08/11/git/">(no title)</a>
           </li>
         
           <li>
-            <a href="/2017/07/16/html5/">HTML5+CSS3</a>
+            <a href="/2017/08/06/javascript-03 /">javascript-03</a>
           </li>
         
           <li>
-            <a href="/2017/07/09/xiami/">虾米音乐</a>
+            <a href="/2017/08/06/linux/">linux常用命令</a>
           </li>
         
           <li>
-            <a href="/2017/07/08/honor_nav/">华为导航</a>
+            <a href="/2017/07/18/javascript-02/">javascript 基本算法：排序，代码书写</a>
           </li>
         
           <li>
-            <a href="/2017/07/08/background/">background背景</a>
+            <a href="/2017/07/18/JavaScript-01 /">JavaScript</a>
           </li>
         
       </ul>
