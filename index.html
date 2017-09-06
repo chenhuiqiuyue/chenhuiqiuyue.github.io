@@ -60,6 +60,70 @@
       <div id="main" class="wrapper">
         <div id="primary" class="site-content"><div id="content" role="main">
   
+    <article id="post-echarts" class="post-echarts post type-post status-publish format-standard hentry">
+    <!---->
+
+      <header class="entry-header">
+        
+        
+  
+    <h1 class="entry-title">
+      <a class="article-title" href="/2017/09/06/echarts/">echarts</a>
+    </h1>
+  
+
+        
+        <div class="comments-link">
+            
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2017/09/06/echarts/" data-id="cj78kij0z00038gfx5vxy76a2" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+        </div><!-- .comments-link -->
+      </header><!-- .entry-header -->
+
+    <div class="entry-content">
+      
+        <h2 id="echarts"><a href="#echarts" class="headerlink" title="echarts"></a>echarts</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div><div class="line">101</div><div class="line">102</div><div class="line">103</div><div class="line">104</div><div class="line">105</div><div class="line">106</div><div class="line">107</div><div class="line">108</div><div class="line">109</div><div class="line">110</div><div class="line">111</div><div class="line">112</div><div class="line">113</div><div class="line">114</div><div class="line">115</div><div class="line">116</div><div class="line">117</div><div class="line">118</div><div class="line">119</div><div class="line">120</div><div class="line">121</div><div class="line">122</div><div class="line">123</div><div class="line">124</div><div class="line">125</div><div class="line">126</div><div class="line">127</div><div class="line">128</div><div class="line">129</div><div class="line">130</div><div class="line">131</div><div class="line">132</div><div class="line">133</div><div class="line">134</div><div class="line">135</div><div class="line">136</div><div class="line">137</div><div class="line">138</div><div class="line">139</div><div class="line">140</div><div class="line">141</div><div class="line">142</div><div class="line">143</div><div class="line">144</div><div class="line">145</div><div class="line">146</div><div class="line">147</div><div class="line">148</div><div class="line">149</div><div class="line">150</div><div class="line">151</div><div class="line">152</div><div class="line">153</div><div class="line">154</div><div class="line">155</div><div class="line">156</div><div class="line">157</div><div class="line">158</div><div class="line">159</div><div class="line">160</div><div class="line">161</div><div class="line">162</div><div class="line">163</div><div class="line">164</div><div class="line">165</div><div class="line">166</div><div class="line">167</div></pre></td><td class="code"><pre><div class="line">1、【或者是github】可以通过npm 下载依赖的 就是echarts  npm install echarts --save【webpack】</div><div class="line">//需要一个容器  div 有宽高</div><div class="line"> &lt;div id=&quot;main&quot; style=&quot;width: 600px;height:400px;&quot;&gt;&lt;/div&gt;</div><div class="line">//引入echarts文件</div><div class="line">&lt;script src=&quot;echarts.js&quot;&gt;&lt;/script&gt;</div><div class="line">//引入中国地图</div><div class="line">&lt;script src=&quot;map/js/china.js&quot;&gt;&lt;/script&gt;</div><div class="line">&lt;script&gt;</div><div class="line">  // 获取到dom元素 ，基于dom，初始化echarts实例</div><div class="line">var chart = echarts.init(document.getElementById(&apos;main&apos;));</div><div class="line">// 地图数据 是经纬的数据 数组</div><div class="line">var  geoCoordMap =&#123;</div><div class="line">   &apos;上海&apos;: [121.4648,31.2891],</div><div class="line">    &apos;东莞&apos;: [113.8953,22.901],</div><div class="line">&#125;</div><div class="line">//到目的的数据</div><div class="line">var BJData = [</div><div class="line">    [&#123;name:&apos;北京&apos;&#125;, &#123;name:&apos;上海&apos;,value:95&#125;],</div><div class="line">chart.setOption(&#123;</div><div class="line">    series: [&#123;</div><div class="line">        type: &apos;map&apos;,</div><div class="line">        map: &apos;china&apos;</div><div class="line">    &#125;]</div><div class="line">&#125;);</div><div class="line">   //定义飞机的目的地址【经纬度】</div><div class="line">var planePath = &apos;path://M1705.06,1318....</div><div class="line">   //转换数据格式 转换成的两个格式[fromCoord, toCoord] 用到 push() 方法</div><div class="line">   // push 可向数组的末尾添加一个或多个元素，并返回新的长度。</div><div class="line">var convertData = function (data) &#123;</div><div class="line">    var res = [];//新建一个空数组</div><div class="line">    for (var i = 0; i &lt; data.length; i++) &#123;</div><div class="line">        var dataItem = data[i]; //循环数据</div><div class="line">        var fromCoord = geoCoordMap[dataItem[0].name];</div><div class="line">        var toCoord = geoCoordMap[dataItem[1].name];</div><div class="line">        //判断条件</div><div class="line">        if (fromCoord &amp;&amp; toCoord) &#123;</div><div class="line">            res.push(&#123;</div><div class="line">                fromName: dataItem[0].name,</div><div class="line">                toName: dataItem[1].name,</div><div class="line">                coords: [fromCoord, toCoord]</div><div class="line">            &#125;);</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">    return res;//返回数据</div><div class="line">&#125;;</div><div class="line">var series = [];</div><div class="line">//forEach 遍历数组  样式格式 拼成相应的格式</div><div class="line">[[&apos;北京&apos;, BJData], [&apos;上海&apos;, SHData], [&apos;广州&apos;, GZData]].forEach(function (item, i) &#123;</div><div class="line">    series.push(&#123;</div><div class="line">        name: item[0] + &apos; Top10&apos;,</div><div class="line">        type: &apos;lines&apos;,</div><div class="line">        zlevel: 1,</div><div class="line">        effect: &#123;</div><div class="line">            show: true,</div><div class="line">            period: 6,</div><div class="line">            trailLength: 0.7,</div><div class="line">            color: &apos;#fff&apos;,</div><div class="line">            symbolSize: 3</div><div class="line">        &#125;,</div><div class="line">        lineStyle: &#123;</div><div class="line">            normal: &#123;</div><div class="line">                color: color[i],</div><div class="line">                width: 0,</div><div class="line">                curveness: 0.2</div><div class="line">            &#125;</div><div class="line">        &#125;,</div><div class="line">        data: convertData(item[1])【生成数组】</div><div class="line">    &#125;,</div><div class="line">    &#123;</div><div class="line">        name: item[0] + &apos; Top10&apos;,</div><div class="line">        type: &apos;lines&apos;,</div><div class="line">        zlevel: 2,</div><div class="line">        symbol: [&apos;none&apos;, &apos;arrow&apos;],</div><div class="line">        symbolSize: 10,</div><div class="line">        effect: &#123;</div><div class="line">            show: true,</div><div class="line">            period: 6,</div><div class="line">            trailLength: 0,</div><div class="line">            symbol: planePath,</div><div class="line">            symbolSize: 15</div><div class="line">        &#125;,</div><div class="line">        lineStyle: &#123;</div><div class="line">            normal: &#123;</div><div class="line">                color: color[i],</div><div class="line">                width: 1,</div><div class="line">                opacity: 0.6,</div><div class="line">                curveness: 0.2</div><div class="line">            &#125;</div><div class="line">        &#125;,</div><div class="line">        data: convertData(item[1])</div><div class="line">    &#125;,</div><div class="line">    &#123;</div><div class="line">        name: item[0] + &apos; Top10&apos;,</div><div class="line">        type: &apos;effectScatter&apos;,</div><div class="line">        coordinateSystem: &apos;geo&apos;,</div><div class="line">        zlevel: 2,</div><div class="line">        rippleEffect: &#123;</div><div class="line">            brushType: &apos;stroke&apos;</div><div class="line">        &#125;,</div><div class="line">        label: &#123;</div><div class="line">            normal: &#123;</div><div class="line">                show: true,</div><div class="line">                position: &apos;right&apos;,</div><div class="line">                formatter: &apos;&#123;b&#125;&apos;</div><div class="line">            &#125;</div><div class="line">        &#125;,</div><div class="line">        symbolSize: function (val) &#123;</div><div class="line">            return val[2] / 8;</div><div class="line">        &#125;,</div><div class="line">        itemStyle: &#123;</div><div class="line">            normal: &#123;</div><div class="line">                color: color[i]</div><div class="line">            &#125;</div><div class="line">        &#125;,</div><div class="line">        data: item[1].map(function (dataItem) &#123;</div><div class="line">            return &#123;</div><div class="line">                name: dataItem[1].name,</div><div class="line">                value: geoCoordMap[dataItem[1].name].concat([dataItem[1].value])</div><div class="line">            &#125;;</div><div class="line">        &#125;)</div><div class="line">    &#125;);</div><div class="line">&#125;);</div><div class="line"></div><div class="line">option = &#123;</div><div class="line">    backgroundColor: &apos;#404a59&apos;,</div><div class="line">    title : &#123;</div><div class="line">        text: &apos;模拟迁徙&apos;,</div><div class="line">        subtext: &apos;数据纯属虚构&apos;,</div><div class="line">        left: &apos;center&apos;,</div><div class="line">        textStyle : &#123;</div><div class="line">            color: &apos;#fff&apos;</div><div class="line">        &#125;</div><div class="line">    &#125;,</div><div class="line">    tooltip : &#123;//提示框组</div><div class="line">        trigger: &apos;item&apos;</div><div class="line">    &#125;,</div><div class="line">    legend: &#123; //图例组件</div><div class="line">        orient: &apos;vertical&apos;,</div><div class="line">        top: &apos;bottom&apos;,</div><div class="line">        left: &apos;right&apos;,</div><div class="line">        data:[&apos;北京 Top10&apos;, &apos;上海 Top10&apos;, &apos;广州 Top10&apos;],</div><div class="line">        textStyle: &#123;</div><div class="line">            color: &apos;#fff&apos;</div><div class="line">        &#125;,</div><div class="line">        selectedMode: &apos;single&apos;</div><div class="line">    &#125;,</div><div class="line">    geo: &#123;</div><div class="line">        map: &apos;china&apos;, //地图类型</div><div class="line">        label: &#123; //图形上的文本标签，可用于说明图形的一些数据信息，比如值，名称</div><div class="line">            emphasis: &#123;</div><div class="line">                show: false</div><div class="line">            &#125;</div><div class="line">        &#125;,</div><div class="line">        roam: true,//是否开启鼠标缩放和平移漫游。true 为都开启</div><div class="line">        itemStyle: &#123; //地图区域的多边形 图形样式</div><div class="line">            normal: &#123;  // 普通状态下的多边形样式。</div><div class="line">                areaColor: &apos;#323c48&apos;,</div><div class="line">                borderColor: &apos;#404a59&apos;</div><div class="line">            &#125;,</div><div class="line">            emphasis: &#123;//高亮状态下的多边形样式。</div><div class="line">                areaColor: &apos;#2a333d&apos;</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">    &#125;,</div><div class="line">    series: series</div><div class="line">&#125;;</div><div class="line">&lt;/script&gt;</div></pre></td></tr></table></figure>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ul>
+<li>init  初始化<ul>
+<li>参数 dom 实例容器</li>
+<li>theme 应用的主题。</li>
+<li>opts<ul>
+<li>devicePixelRatio<br>设备像素比，默认取浏览器的值window.devicePixelRatio</li>
+<li>renderer<br>渲染器，仅支持’canvas’。</li>
+<li>width<br>可显式指定实例宽度，单位为像素px。</li>
+<li>height<br>可显式指定实例高度，单位为像素px。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>connect 多个图表实例实现联动。</li>
+<li>disconnect 解除图表实例的联动</li>
+<li>dispose  销毁实例，实例销毁后无法再被使用。</li>
+<li>getInstanceByDom  获取 dom 容器上的实例</li>
+<li>registerMap  注册可用的地图 【包括 geo 组件或者 map 图表】</li>
+<li>registerTheme 注册主题，</li>
+<li>graphic  图形相关帮助方法。</li>
+</ul>
+<h2 id="异步加载-通过-jQuery-等工具异步获取数据后通过-setOption-填入数据和配置项就行。"><a href="#异步加载-通过-jQuery-等工具异步获取数据后通过-setOption-填入数据和配置项就行。" class="headerlink" title="异步加载 通过 jQuery 等工具异步获取数据后通过 setOption 填入数据和配置项就行。"></a>异步加载 通过 jQuery 等工具异步获取数据后通过 setOption 填入数据和配置项就行。</h2><h2 id="echartsInstance-通过-echarts-init-创建的实例。"><a href="#echartsInstance-通过-echarts-init-创建的实例。" class="headerlink" title="echartsInstance 通过 echarts.init 创建的实例。"></a>echartsInstance 通过 echarts.init 创建的实例。</h2><h2 id="action-ECharts-中支持的图表行为，通过-dispatchAction-触发。"><a href="#action-ECharts-中支持的图表行为，通过-dispatchAction-触发。" class="headerlink" title="action  ECharts 中支持的图表行为，通过 dispatchAction 触发。"></a>action  ECharts 中支持的图表行为，通过 dispatchAction 触发。</h2><h2 id="events-在-ECharts-中主要通过-on-方法添加事件处理函数，该文档描述了所有-ECharts-的事件列表。-也有鼠标事件"><a href="#events-在-ECharts-中主要通过-on-方法添加事件处理函数，该文档描述了所有-ECharts-的事件列表。-也有鼠标事件" class="headerlink" title="events  在 ECharts 中主要通过 on 方法添加事件处理函数，该文档描述了所有 ECharts 的事件列表。 也有鼠标事件"></a>events  在 ECharts 中主要通过 on 方法添加事件处理函数，该文档描述了所有 ECharts 的事件列表。 也有鼠标事件</h2>
+      
+    </div><!-- .entry-content -->
+
+    <footer class="entry-meta">
+    <a href="/2017/09/06/echarts/">
+    <time datetime="2017-09-06T03:51:35.847Z" class="entry-date">
+        2017-09-06
+    </time>
+</a>
+    
+    
+    </footer>
+</article>
+
+
+
+
+
+
+  
     <article id="post-git" class="post-git post type-post status-publish format-standard hentry">
     <!---->
 
@@ -67,7 +131,7 @@
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://yoursite.com/2017/08/11/git/" data-id="cj75xtnm90000hcfx69g1qczl" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2017/08/11/git/" data-id="cj78kiisq00008gfxlxs1gikp" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -109,7 +173,7 @@
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://yoursite.com/2017/08/06/javascript-03 /" data-id="cj75xto0k000fhcfxh8ne6ikj" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2017/08/06/javascript-03 /" data-id="cj78kij29000g8gfx5ynmd2ld" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -473,7 +537,7 @@
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://yoursite.com/2017/08/06/linux/" data-id="cj75xto0c000dhcfx62301930" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2017/08/06/linux/" data-id="cj78kij5b000h8gfxyl2iz8hp" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -536,7 +600,7 @@
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://yoursite.com/2017/07/18/javascript-02/" data-id="cj75xto0f000ehcfxc5volaoq" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2017/07/18/javascript-02/" data-id="cj78kij29000c8gfxu5oggyed" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -655,7 +719,7 @@
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://yoursite.com/2017/07/18/JavaScript-01 /" data-id="cj75xtnwp0002hcfxgdvr7lx6" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2017/07/18/JavaScript-01 /" data-id="cj78kij0z00018gfxivhabgrm" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -1212,7 +1276,7 @@
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://yoursite.com/2017/07/18/Responsive-layout /" data-id="cj75xtnwj0001hcfx5zro688k" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2017/07/18/Responsive-layout /" data-id="cj78kij0z00028gfxnd2je1ij" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -1346,7 +1410,7 @@
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://yoursite.com/2017/07/16/html5+css3/" data-id="cj75xto05000bhcfxi2ve2sm3" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2017/07/16/html5+css3/" data-id="cj78kij29000d8gfxe0cxqmlb" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -1627,7 +1691,7 @@
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://yoursite.com/2017/07/09/xiami/" data-id="cj75xto0s000hhcfxbyn1226n" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2017/07/09/xiami/" data-id="cj78kij6l000i8gfxt1xamtde" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -1673,7 +1737,7 @@
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://yoursite.com/2017/07/08/honor_nav/" data-id="cj75xto01000ahcfx6mtvd950" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2017/07/08/honor_nav/" data-id="cj78kij1u000a8gfxxdg5yuu7" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -1690,166 +1754,6 @@
     <footer class="entry-meta">
     <a href="/2017/07/08/honor_nav/">
     <time datetime="2017-07-08T11:21:29.196Z" class="entry-date">
-        2017-07-08
-    </time>
-</a>
-    
-    
-    </footer>
-</article>
-
-
-
-
-
-
-  
-    <article id="post-background" class="post-background post type-post status-publish format-standard hentry">
-    <!---->
-
-      <header class="entry-header">
-        
-        
-  
-    <h1 class="entry-title">
-      <a class="article-title" href="/2017/07/08/background/">background背景</a>
-    </h1>
-  
-
-        
-        <div class="comments-link">
-            
-            <a href="javascript:void(0);" data-url="http://yoursite.com/2017/07/08/background/" data-id="cj75xtnwt0003hcfxrsdzbs33" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
-        </div><!-- .comments-link -->
-      </header><!-- .entry-header -->
-
-    <div class="entry-content">
-      
-        <h1 id="background"><a href="#background" class="headerlink" title="background"></a>background</h1><h2 id="ps快捷键"><a href="#ps快捷键" class="headerlink" title="ps快捷键"></a>ps快捷键</h2><p>T                文字工具<br>Ctrl+enter  取消选择工具</p>
-<h2 id="background-1"><a href="#background-1" class="headerlink" title="background"></a>background</h2><p>背景缩写属性可以在一个声明中设置所有的背景属性<br>背景图像支持引入多个图像<br>主要属性有:</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">属性</th>
-<th style="text-align:center">描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">background-color</td>
-<td style="text-align:center">背景颜色</td>
-</tr>
-<tr>
-<td style="text-align:center">background-position</td>
-<td style="text-align:center">背景图片的定位</td>
-</tr>
-<tr>
-<td style="text-align:center">background-size</td>
-<td style="text-align:center">背景 大小</td>
-</tr>
-<tr>
-<td style="text-align:center">background-repeat</td>
-<td style="text-align:center">背景图片平铺</td>
-</tr>
-<tr>
-<td style="text-align:center">background-origin</td>
-<td style="text-align:center">背景图像的定位区域</td>
-</tr>
-<tr>
-<td style="text-align:center">background-clip</td>
-<td style="text-align:center">背景图像的绘画区域</td>
-</tr>
-<tr>
-<td style="text-align:center">background-attachment</td>
-<td style="text-align:center">指定对象的背景图像是随对象内容滚动还是固定的。</td>
-</tr>
-<tr>
-<td style="text-align:center">background-image</td>
-<td style="text-align:center">背景图片</td>
-</tr>
-</tbody>
-</table>
-<h3 id="background-color"><a href="#background-color" class="headerlink" title="background-color"></a>background-color</h3><p>transparent 指定背景颜色应该是透明的，这是默认。<br>inherit 指定背景颜色，应该从父元素继承<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">background-color：#ff6600</div><div class="line">background-color:rgb(255,255,255)白色</div><div class="line">background-color:rgb(0,0,0)黑色</div><div class="line">background-color：ragb(0，0，0，0.2)</div><div class="line">a是指透明度 范围0-1</div></pre></td></tr></table></figure></p>
-<h3 id="background-image"><a href="#background-image" class="headerlink" title="background-image"></a>background-image</h3><p>指定要使用一个或多个背景图像，默认情况下，background-image放置在元素的左上角，并重复垂直和水平方向。<br>url 图像的url<br>none无图像背景会显示。这是默认<br>inherit 指定背景图像应该从父元素继承<br>引入背景图片<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">background-image：url(&quot;bg.jpg&quot;)</div></pre></td></tr></table></figure></p>
-<p>可以引入多张图片，先引入的图片会覆盖在后引入图片的上面<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">background-image：url(&quot;bg.jpg&quot;),url(&quot;logo.jpg&quot;)</div></pre></td></tr></table></figure></p>
-<blockquote>
-<p>ie8以下浏览器不支持</p>
-</blockquote>
-<h3 id="background-repeat-no-repeat；"><a href="#background-repeat-no-repeat；" class="headerlink" title="background-repeat:no-repeat；"></a>background-repeat:no-repeat；</h3><p>指定如何重复背景图像，默认情况下，重复background-image的垂直和水平方向<br>背景图片平铺<br>repeat 背景图像将向垂直和水平方向重复。这是默认<br>如果不写默认是repeat平铺<br>no-repeat 不进行平铺<br>repeat-x x轴平铺 只是水平位置会重复背景图像<br>repeat-y y轴平铺 只是垂直位置会重复背景图像<br>inherit 指定background-repeat属性设置应该从父元素继承<br>可以控制多个图片的平铺的方法<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">background-repeat：no-repeat，repeat；</div></pre></td></tr></table></figure></p>
-<blockquote>
-<p>引入多个图片的方法，ie低版本浏览器不支持</p>
-</blockquote>
-<h3 id="background-position：10px-30px；"><a href="#background-position：10px-30px；" class="headerlink" title="background-position：10px 30px；"></a>background-position：10px 30px；</h3><p>设置背景图像的起始位置<br>背景图片的定位<br>注意对于这个工作在Firefox和Opera，background-attachment必须设置为“fixed（固定定位）”<br>top bottom left right center 可以两两组合，如果仅指定一个关键字，其他值将会是“center”<br>支持数值<br>第一个值是X轴 从左到右<br>第二个值是Y轴 从上道下<br>inherit    指定background-position属性设置应该从父元素继承<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">background-position:center center;盒子的中心与图片的中心重合</div></pre></td></tr></table></figure></p>
-<h3 id="background-size：247px-440px-css3"><a href="#background-size：247px-440px-css3" class="headerlink" title="background-size：247px 440px  [css3]"></a>background-size：247px 440px  [css3]</h3><p>背景图片的大小<br>第一个值是指宽度<br>第二个值是指高度<br>cover此时会保持图像的纵横比并将图像缩放成将完成覆盖背景定位区域的最小大小<br>contain此时会保持图像的纵横比并将图像缩放成将合适背景定位区域的最大大小。</p>
-<h3 id="background-origin-css3"><a href="#background-origin-css3" class="headerlink" title="background-origin  [css3]"></a>background-origin  [css3]</h3><p>指定背景图像的定位区域</p>
-<ul>
-<li>padding-box 背景图像填充框的相对位置  从padding区域（含padding）开始显示背景图像</li>
-<li>border-box 背景图像边界框的相对位置    从border区域（含border）开始显示背景图像</li>
-<li>content-box 背景图像的相对位置的内容框   从content区域（含content）开始显示背景图像</li>
-</ul>
-<p>ie低版本浏览器不支持</p>
-<h3 id="background：linear-gradient-to-bottom-ffffff-ff6700"><a href="#background：linear-gradient-to-bottom-ffffff-ff6700" class="headerlink" title="background：linear-gradient(to bottom,#ffffff,#ff6700);"></a>background：linear-gradient(to bottom,#ffffff,#ff6700);</h3><p>线性渐变</p>
-<h3 id="background-clip-css3"><a href="#background-clip-css3" class="headerlink" title="background-clip[css3]"></a>background-clip[css3]</h3><p>指定背景图像的绘画区域<br>指定对象的背景图像向外裁剪的区域<br>border-box      默认值。背景绘制在边框方框内（剪切成边框方框）。<br>padding-box      背景绘制在衬距方框内（剪切成衬距方框）。<br>content-box      背景绘制在内容方框内（剪切成内容方框）。</p>
-<h3 id="background-attachment"><a href="#background-attachment" class="headerlink" title="background-attachment"></a>background-attachment</h3><p>设置背景图像是否固定或者随着页面的其余部分滚动。<br>fixed：背景图像相对于窗体固定。<br>scroll：背景图像相对于元素固定，也就是说当元素内容滚动时背景图像不会跟着滚动，因为背景图像总是要跟着元素本身。但会随元素的祖先元素或窗体一起滚动。<br>local：背景图像相对于元素内容固定，也就是说当元素随元素滚动时背景图像也会跟着滚动，因为背景图像总是要跟着内容。<br>inherit    指定background-attachment的设置应该从父元素继承</p>
-<h3 id="background-blend-mode-不支持ie浏览器"><a href="#background-blend-mode-不支持ie浏览器" class="headerlink" title="background-blend-mode [不支持ie浏览器]"></a>background-blend-mode [不支持ie浏览器]</h3><p>该属性定义了背景层的混合模式（图片与颜色）。</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">属性</th>
-<th style="text-align:center">描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">normal</td>
-<td style="text-align:center">默认值。设置正常的混合模式。</td>
-</tr>
-<tr>
-<td style="text-align:center">multiply</td>
-<td style="text-align:center">正片叠底模式。</td>
-</tr>
-<tr>
-<td style="text-align:center">screen</td>
-<td style="text-align:center">滤色模式。</td>
-</tr>
-<tr>
-<td style="text-align:center">overlay</td>
-<td style="text-align:center">叠加模式。</td>
-</tr>
-<tr>
-<td style="text-align:center">darken</td>
-<td style="text-align:center">变暗模式。</td>
-</tr>
-<tr>
-<td style="text-align:center">lighten</td>
-<td style="text-align:center">变亮模式。</td>
-</tr>
-<tr>
-<td style="text-align:center">saturation</td>
-<td style="text-align:center">饱和度模式。</td>
-</tr>
-<tr>
-<td style="text-align:center">color</td>
-<td style="text-align:center">颜色模式。</td>
-</tr>
-<tr>
-<td style="text-align:center">luminosity</td>
-<td style="text-align:center">亮度模式。</td>
-</tr>
-<tr>
-<td style="text-align:center">color-dodge</td>
-<td style="text-align:center">颜色减淡模式。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="雪碧图"><a href="#雪碧图" class="headerlink" title="雪碧图"></a>雪碧图</h2><p>多个小图片放在一个大的透明图片文件中，调取时，统一调取这张图片，按照图片位置的定位来展现其中一部分<br>减少http请求，优化代码</p>
-
-      
-    </div><!-- .entry-content -->
-
-    <footer class="entry-meta">
-    <a href="/2017/07/08/background/">
-    <time datetime="2017-07-08T06:26:12.488Z" class="entry-date">
         2017-07-08
     </time>
 </a>
@@ -1893,6 +1797,10 @@
       <ul>
         
           <li>
+            <a href="/2017/09/06/echarts/">echarts</a>
+          </li>
+        
+          <li>
             <a href="/2017/08/11/git/">(no title)</a>
           </li>
         
@@ -1906,10 +1814,6 @@
         
           <li>
             <a href="/2017/07/18/javascript-02/">javascript 基本算法：排序，代码书写</a>
-          </li>
-        
-          <li>
-            <a href="/2017/07/18/JavaScript-01 /">JavaScript</a>
           </li>
         
       </ul>
